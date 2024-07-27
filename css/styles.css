@@ -1,0 +1,72 @@
+:root {
+  --color-primary-dark: #31261a; 
+  --color-primary-light: #FAF4EA;
+  --color-brand-light: #819B57;
+  --color-brand-dark: #465929;
+}
+
+/*Base*/
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+/*Button*/
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+/*Link*/
+.link {
+color: var(--color-primary-light);
+text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/*Hero section*/
+.hero-title {
+  color: var(--color-primary-light);
+  text-align: center;
+  /* text-transform: capitalize; */
+}
+
+.hero-title .accent {
+  color: var(--color-brand-light);
+}
+
+/*Advantages section*/
+.advantages-list {
+  color: var(--color-primary-light); 
+  background-color: var(--color-brand-light);
+}
+
+.section-title {
+  color: var(--color-primary-dark);
+}
+
+/* Traditions section */ 
+.traditions-text .brand {
+  color: var(--color-brand-light);
+}
+
+.traditions-text .uppercase{
+  color: var(--color-brand-light);
+  text-transform: uppercase;
+}
